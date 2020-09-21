@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/itemrl">
+
+    <TextView
+        android:id="@+id/name_of_list"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/list"
+        android:textSize="40sp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/food_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

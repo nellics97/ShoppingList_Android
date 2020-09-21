@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:id="@+id/single_food_item"
+         >
+
+        <TextView
+            android:id="@+id/item_name_display"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#000000"
+            android:shadowDx = "-2"
+            android:shadowDy = "-2"
+            android:shadowRadius = "1"
+            />
+
+
+        <TextView
+            android:id="@+id/numpick_list_display"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#000000"
+            android:shadowDx = "-2"
+            android:shadowDy = "-2"
+            android:shadowRadius = "1"/>
+
+        <TextView
+            android:id="@+id/spinner_list_display"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#000000"
+            android:shadowDx = "-2"
+            android:shadowDy = "-2"
+            android:shadowRadius = "1" />
+
+
+    </LinearLayout>

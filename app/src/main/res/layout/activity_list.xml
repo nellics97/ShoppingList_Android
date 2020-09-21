@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_linlay"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <Button
+        android:id="@+id/add_new_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/add_new_item"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"
+        android:backgroundTint="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/press_item_to_modify_or_delete"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:layout_gravity="center"
+        android:shadowRadius = "1"
+        android:textSize="16sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/food_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

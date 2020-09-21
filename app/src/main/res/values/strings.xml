@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BevasarloLischta</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="list">List</string>
+    <string name="login_or_register">Login or Register</string>
+    <string name="add_new_item">Add new item</string>
+    <string name="create_new_list">Create New List</string>
+    <string name="name_of_list">Name of List</string>
+    <string name="create">Create</string>
+    <string name="name_of_item">Name of item</string>
+    <string name="delete">Delete</string>
+    <string name="press_item_to_modify_or_delete">Press item to modify or delete</string>
+
+
+    <string-array name="spinner_units">
+        <item>pieces</item>
+        <item>litres</item>
+        <item>grams</item>
+    </string-array>
+</resources>

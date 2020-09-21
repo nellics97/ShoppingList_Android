@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_linlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+
+    <EditText
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:hint="@string/name_of_item"
+        android:shadowColor="#000000"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+         android:weightSum="5">
+
+
+
+    <NumberPicker
+        android:id="@+id/numpick_list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"/>
+
+    <Spinner
+        android:id="@+id/spinner_list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/check"/>
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="220dp"
+        android:src="@drawable/delete"/>
+</FrameLayout>
